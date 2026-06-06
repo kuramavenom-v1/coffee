@@ -1,61 +1,68 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Coffee House</title>
+
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- Header -->
+  <!-- NAV -->
   <header class="header">
-    <div class="logo">Coffee House</div>
+    <div class="logo">☕ Coffee House</div>
     <a class="btn" href="https://wa.me/0000000000" target="_blank">
       اطلب الآن
     </a>
   </header>
 
-  <!-- Hero -->
+  <!-- HERO -->
   <section class="hero">
-    <div class="hero-text">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
       <h1>أفضل قهوة مختصة في الرياض</h1>
-      <p>نقدم قهوة طازجة محمصة بعناية يوميًا لتجربة لا تُنسى.</p>
-      <a class="btn" href="https://wa.me/0000000000">اطلب عبر واتساب</a>
+      <p>قهوة طازجة محمصة بعناية يوميًا لتجربة لا تُنسى</p>
+
+      <a class="btn big" href="https://wa.me/0000000000">
+        اطلب عبر واتساب
+      </a>
     </div>
   </section>
 
-  <!-- About -->
-  <section class="about">
+  <!-- ABOUT -->
+  <section class="section">
     <h2>من نحن</h2>
-    <p>
-      Coffee House هو مكانك المفضل للقهوة المختصة، نهتم بأدق التفاصيل من الحبة إلى الكوب.
+    <p class="text">
+      Coffee House هو وجهتك المثالية للقهوة المختصة. نهتم بكل تفصيلة من اختيار الحبوب إلى تقديم الكوب بأفضل جودة.
     </p>
   </section>
 
-  <!-- Menu -->
-  <section class="menu">
+  <!-- MENU -->
+  <section class="section dark">
     <h2>المنيو</h2>
 
-    <div class="menu-grid">
+    <div class="grid">
 
-      <div class="item">
+      <div class="card">
         <h3>لاتيه</h3>
         <p>15 ريال</p>
       </div>
 
-      <div class="item">
+      <div class="card">
         <h3>كابتشينو</h3>
         <p>14 ريال</p>
       </div>
 
-      <div class="item">
+      <div class="card">
         <h3>إسبريسو</h3>
         <p>10 ريال</p>
       </div>
 
-      <div class="item">
+      <div class="card">
         <h3>آيس كوفي</h3>
         <p>16 ريال</p>
       </div>
@@ -63,13 +70,15 @@
     </div>
   </section>
 
-  <!-- Location -->
-  <section class="location">
-    <h2>موقعنا</h2>
-    <p>زورونا في فرعنا الرئيسي – نرحب بكم دائمًا ☕</p>
+  <!-- LOCATION -->
+  <section class="section">
+    <h2>الموقع</h2>
+    <p class="text">
+      الرياض – نرحب بكم يوميًا من 6 صباحًا إلى 12 ليلًا ☕
+    </p>
   </section>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
   <footer class="footer">
     <p>© 2026 Coffee House - جميع الحقوق محفوظة</p>
   </footer>
