@@ -1,100 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
 
 body {
-  margin: 0;
-  font-family: 'Cairo', sans-serif;
-  background: #0f0f0f;
+  background: #0e0e10;
   color: #fff;
 }
 
-/* Header */
-.header {
+/* NAV */
+nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
   background: #111;
   position: sticky;
   top: 0;
 }
 
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* Button */
-.btn {
-  background: #c89b5a;
-  color: #000;
-  padding: 10px 18px;
-  border-radius: 25px;
+nav a {
+  color: #fff;
   text-decoration: none;
-  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 20px;
   transition: 0.3s;
 }
 
-.btn:hover {
-  background: #e0b46b;
+nav a:hover {
+  background: #e6c07a;
+  color: #111;
 }
 
-/* Hero */
+/* HERO */
 .hero {
-  height: 90vh;
+  height: 85vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-              url('images/hero.jpg') center/cover;
   padding: 20px;
 }
 
 .hero h1 {
-  font-size: 40px;
+  font-size: 36px;
   margin-bottom: 10px;
+  color: #e6c07a;
 }
 
 .hero p {
-  margin-bottom: 20px;
-  color: #ddd;
+  color: #bbb;
 }
 
-/* Sections */
-section {
+/* SECTIONS */
+.section {
   padding: 60px 20px;
   text-align: center;
 }
 
 h2 {
-  color: #c89b5a;
+  color: #e6c07a;
   margin-bottom: 20px;
 }
 
-/* Menu */
-.menu-grid {
+/* GRID */
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
   max-width: 900px;
   margin: auto;
 }
 
-.item {
-  background: #1a1a1a;
+.card {
+  background: #1b1b1b;
   padding: 20px;
-  border-radius: 15px;
-  transition: 0.3s;
+  border-radius: 12px;
 }
 
-.item:hover {
-  transform: translateY(-5px);
-}
-
-/* Footer */
-.footer {
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
   background: #111;
-  padding: 20px;
-  font-size: 14px;
-  color: #aaa;
+  color: #777;
+  margin-top: 40px;
 }
