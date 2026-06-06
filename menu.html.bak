@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">الرئيسية</a>
+  <a href="menu.html">المنيو</a>
+  <a href="about.html">من نحن</a>
+  <a href="contact.html">تواصل</a>
+</nav>
+
+<section class="section">
+  <h2>Hot Drinks</h2>
+  <div class="grid">
+    <div class="card">Latte - 15 SR</div>
+    <div class="card">Cappuccino - 14 SR</div>
+    <div class="card">Espresso - 10 SR</div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Cold Drinks</h2>
+  <div class="grid">
+    <div class="card">Iced Coffee - 16 SR</div>
+    <div class="card">Iced Latte - 17 SR</div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Desserts</h2>
+  <div class="grid">
+    <div class="card">Brownie - 12 SR</div>
+  </div>
+</section>
+
+<footer>© 2026 Coffee House</footer>
+
+</body>
+</html>

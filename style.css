@@ -125,4 +125,41 @@ footer {
     flex-wrap: wrap;
     gap: 10px;
   }
+  
+html {
+  font-size: 16px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* يخلي كل شيء مناسب للجوال */
+@media (max-width: 768px) {
+
+  nav {
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 40px 15px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .card {
+    padding: 16px;
+  }
 }
