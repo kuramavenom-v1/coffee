@@ -1,22 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-  <title>Coffee House | قهوة مختصة في الرياض</title>
-  <meta name="description" content="Coffee House - أفضل قهوة مختصة في الرياض، نقدم قهوة طازجة يوميًا بتجربة مميزة." />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Coffee House" />
-  <meta property="og:description" content="أفضل قهوة مختصة في الرياض" />
-  <meta property="og:type" content="website" />
-
-  <!-- Font (اختياري احترافي) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+  <title>Coffee House</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,94 +11,67 @@
 
   <!-- Header -->
   <header class="header">
-    <div class="container nav">
-      <div class="logo">☕ Coffee House</div>
-
-      <nav class="menu-links">
-        <a href="#about">من نحن</a>
-        <a href="#menu">المنيو</a>
-        <a href="#location">الموقع</a>
-      </nav>
-
-      <a class="btn primary" href="https://wa.me/0000000000" target="_blank">
-        اطلب الآن
-      </a>
-    </div>
+    <div class="logo">Coffee House</div>
+    <a class="btn" href="https://wa.me/0000000000" target="_blank">
+      اطلب الآن
+    </a>
   </header>
 
   <!-- Hero -->
   <section class="hero">
-    <div class="overlay"></div>
-
-    <div class="container hero-content">
+    <div class="hero-text">
       <h1>أفضل قهوة مختصة في الرياض</h1>
       <p>نقدم قهوة طازجة محمصة بعناية يوميًا لتجربة لا تُنسى.</p>
-
-      <div class="hero-actions">
-        <a class="btn primary" href="https://wa.me/0000000000">اطلب عبر واتساب</a>
-        <a class="btn secondary" href="#menu">استعرض المنيو</a>
-      </div>
+      <a class="btn" href="https://wa.me/0000000000">اطلب عبر واتساب</a>
     </div>
   </section>
 
   <!-- About -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2>من نحن</h2>
-      <p>
-        Coffee House هو مكانك المفضل للقهوة المختصة، نهتم بأدق التفاصيل من الحبة إلى الكوب لنمنحك تجربة فريدة في كل زيارة.
-      </p>
-    </div>
+  <section class="about">
+    <h2>من نحن</h2>
+    <p>
+      Coffee House هو مكانك المفضل للقهوة المختصة، نهتم بأدق التفاصيل من الحبة إلى الكوب.
+    </p>
   </section>
 
   <!-- Menu -->
-  <section id="menu" class="section light">
-    <div class="container">
-      <h2>المنيو</h2>
+  <section class="menu">
+    <h2>المنيو</h2>
 
-      <div class="grid">
+    <div class="menu-grid">
 
-        <div class="card">
-          <h3>لاتيه</h3>
-          <span>15 ريال</span>
-        </div>
-
-        <div class="card">
-          <h3>كابتشينو</h3>
-          <span>14 ريال</span>
-        </div>
-
-        <div class="card">
-          <h3>إسبريسو</h3>
-          <span>10 ريال</span>
-        </div>
-
-        <div class="card">
-          <h3>آيس كوفي</h3>
-          <span>16 ريال</span>
-        </div>
-
+      <div class="item">
+        <h3>لاتيه</h3>
+        <p>15 ريال</p>
       </div>
+
+      <div class="item">
+        <h3>كابتشينو</h3>
+        <p>14 ريال</p>
+      </div>
+
+      <div class="item">
+        <h3>إسبريسو</h3>
+        <p>10 ريال</p>
+      </div>
+
+      <div class="item">
+        <h3>آيس كوفي</h3>
+        <p>16 ريال</p>
+      </div>
+
     </div>
   </section>
 
   <!-- Location -->
-  <section id="location" class="section">
-    <div class="container">
-      <h2>موقعنا</h2>
-      <p>زورونا في فرعنا الرئيسي – نرحب بكم دائمًا ☕</p>
-
-      <div class="map-placeholder">
-        خريطة الموقع (يمكن إضافة Google Maps هنا)
-      </div>
-    </div>
+  <section class="location">
+    <h2>موقعنا</h2>
+    <p>زورونا في فرعنا الرئيسي – نرحب بكم دائمًا ☕</p>
   </section>
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="container">
-      <p>© 2026 Coffee House - جميع الحقوق محفوظة</p>
-    </div>
+    <p>© 2026 Coffee House - جميع الحقوق محفوظة</p>
   </footer>
 
 </body>
